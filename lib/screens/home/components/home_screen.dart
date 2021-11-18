@@ -3,12 +3,15 @@ import 'package:sdutea/constant.dart';
 import 'package:sdutea/screens/home/components/body.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import 'my_bottom_nav_bar.dart';
+
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
       body: Body(),
+      bottomNavigationBar: MyBottomNavBar(),
     );
   }
 
