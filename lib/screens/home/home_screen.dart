@@ -4,6 +4,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:plant_app/components/my_bottom_nav_bar.dart';
 import 'package:plant_app/screens/home/components/body.dart';
 
+import 'my_bottom_nav_bar.dart';
+
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
