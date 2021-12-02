@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:sdutea/constant.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
+import '../../../constants.dart';
 
 class HeaderWithSearchBox extends StatelessWidget {
   const HeaderWithSearchBox({
-    Key? key,
-    required this.size,
+    Key key,
+    @required this.size,
   }) : super(key: key);
 
   final Size size;
@@ -36,7 +37,7 @@ class HeaderWithSearchBox extends StatelessWidget {
               children: <Widget>[
                 Text(
                   'Good Day!',
-                  style: Theme.of(context).textTheme.headline5!.copyWith(
+                  style: Theme.of(context).textTheme.headline5.copyWith(
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
                 Spacer(),
@@ -74,7 +75,7 @@ class HeaderWithSearchBox extends StatelessWidget {
                       decoration: InputDecoration(
                         hintText: "Search",
                         hintStyle: TextStyle(
-                          color: Colors.black,
+                          color: kPrimaryColor.withOpacity(0.5),
                         ),
                         enabledBorder: InputBorder.none,
                         focusedBorder: InputBorder.none,

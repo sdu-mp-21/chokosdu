@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:sdutea/constant.dart';
+
+import '../../../constants.dart';
 
 class TitleWithMoreBtn extends StatelessWidget {
   const TitleWithMoreBtn({
-    Key? key,
-    required this.title,
-    required this.press,
+    Key key,
+    this.title,
+    this.press,
   }) : super(key: key);
   final String title;
   final Function press;
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -17,34 +19,17 @@ class TitleWithMoreBtn extends StatelessWidget {
         children: <Widget>[
           TitleWithCustomUnderline(text: title),
           Spacer(),
-          TextButton(
-              style: ButtonStyle(
-                foregroundColor:
-                    MaterialStateProperty.all<Color>(Colors.red.shade900),
-                overlayColor: MaterialStateProperty.resolveWith<Color?>(
-                  (Set<MaterialState> states) {
-                    if (states.contains(MaterialState.hovered))
-                      return Colors.red.shade900.withOpacity(0.04);
-                    if (states.contains(MaterialState.focused) ||
-                        states.contains(MaterialState.pressed))
-                      return Colors.red.shade900.withOpacity(0.12);
-                    return null; // Defer to the widget's default.
-                  },
-                ),
-              ),
-              onPressed: () {},
-              child: Text("More")
-              // ignore: deprecated_member_use
-              // FlatButton(
-              //   shape:
-              //       RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-              //   color: kPrimaryColor,
-              //   onPressed: press,
-              //   child: Text(
-              //     "More",
-              //     style: TextStyle(color: Colors.white),
-              // ),
-              ),
+          FlatButton(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            ),
+            color: kPrimaryColor,
+            onPressed: press,
+            child: Text(
+              "More",
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
         ],
       ),
     );
@@ -53,8 +38,8 @@ class TitleWithMoreBtn extends StatelessWidget {
 
 class TitleWithCustomUnderline extends StatelessWidget {
   const TitleWithCustomUnderline({
-    Key? key,
-    required this.text,
+    Key key,
+    this.text,
   }) : super(key: key);
 
   final String text;
