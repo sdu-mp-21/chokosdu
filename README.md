@@ -43,19 +43,11 @@ This app can be used by anyone who wants to make an order beforehand. In the app
 
 ## Screenshots
 
-![page1-removebg-preview](https://user-images.githubusercontent.com/72996538/146637432-9e494da6-96e4-4b6e-acd1-ea21f58e92ca.png)
-![login1-removebg-preview](https://user-images.githubusercontent.com/72996538/146637392-44c6daa2-b01e-4473-957b-415c3214df02.png)
+![page1-removebg-preview](https://github.com/sdu-mp-21/chokosdu/blob/27a3dec1b03251e53b8bbf7acea8b9bf1850b8ad/%D0%BA%D0%B0%D1%80%D1%82.PNG)
+![login1-removebg-preview](https://github.com/sdu-mp-21/chokosdu/blob/27a3dec1b03251e53b8bbf7acea8b9bf1850b8ad/%D1%81%D0%B0%D0%B9%D0%BD.PNG)
 
-![main2-removebg-preview](https://user-images.githubusercontent.com/72996538/146637412-b892eb9f-08b1-451d-898f-283cdf4962ce.png)
-![add-removebg-preview](https://user-images.githubusercontent.com/72996538/146637498-5884eaf8-9240-4ea6-9ed6-97aebeda6e95.png)
-<!-- ![page2-removebg-preview](https://user-images.githubusercontent.com/72996538/146637439-aa15828e-ea7b-486e-ab1b-131b96179cd8.png)
-![page3-removebg-preview](https://user-images.githubusercontent.com/72996538/146637449-a4a0a033-4826-4e25-97d1-130e45e3b74f.png) -->
-
-
-<!-- ![login2-removebg-preview](https://user-images.githubusercontent.com/72996538/146637399-d2775471-9294-422b-a33e-0e6d58ce667b.png) -->
-
-<!-- ![main1-removebg-preview](https://user-images.githubusercontent.com/72996538/146637407-6fd68454-2ca5-4e83-a759-bb379bd28f41.png) -->
-<!-- ![main3-removebg-preview](https://user-images.githubusercontent.com/72996538/146637426-08697850-41da-49e8-b522-1173191633a3.png) -->
+![main2-removebg-preview](https://github.com/sdu-mp-21/chokosdu/blob/27a3dec1b03251e53b8bbf7acea8b9bf1850b8ad/%D1%85%D0%BE%D1%83%D0%BC.PNG)
+![add-removebg-preview](https://github.com/sdu-mp-21/chokosdu/blob/27a3dec1b03251e53b8bbf7acea8b9bf1850b8ad/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%20%D1%80%D0%B5%D0%B4.PNG)
 
 
 ## Database
